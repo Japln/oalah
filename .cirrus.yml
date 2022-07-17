@@ -29,3 +29,4 @@ check_android_task:
     - adb shell input keyevent 82
 
   check_script: ./gradlew check connectedCheck
+ 
